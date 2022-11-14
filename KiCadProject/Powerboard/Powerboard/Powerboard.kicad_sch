@@ -1,0 +1,221 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid ce092122-1ea3-404c-b26e-723c661acfcf)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Eldalote_symbols:XT30" (in_bom yes) (on_board yes)
+      (property "Reference" "J" (id 0) (at 0.635 4.445 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "XT30" (id 1) (at 1.27 -4.445 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "Eldalote-footprints:XT30" (id 2) (at -1.27 -8.255 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "XT30_0_1"
+        (polyline
+          (pts
+            (xy 0 3.175)
+            (xy 0 -2.54)
+            (xy 0.635 -3.175)
+            (xy 1.905 -3.175)
+            (xy 2.54 -2.54)
+            (xy 2.54 3.175)
+            (xy 0 3.175)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "XT30_1_1"
+        (pin passive line (at -2.54 -1.905 0) (length 2.54)
+          (name "N" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -2.54 1.905 0) (length 2.54)
+          (name "P" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Eldalote_symbols:XT60" (in_bom yes) (on_board yes)
+      (property "Reference" "J" (id 0) (at 0.635 4.445 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "XT60" (id 1) (at 1.27 -4.445 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "Eldalote-footprints:XT60" (id 2) (at 0.635 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "XT60_0_1"
+        (polyline
+          (pts
+            (xy 0 3.175)
+            (xy 0 -2.54)
+            (xy 0.635 -3.175)
+            (xy 1.905 -3.175)
+            (xy 2.54 -2.54)
+            (xy 2.54 3.175)
+            (xy 0 3.175)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "XT60_1_1"
+        (pin passive line (at -2.54 -1.905 0) (length 2.54)
+          (name "N" (effects (font (size 1.27 1.27))))
+          (number "N" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -2.54 1.905 0) (length 2.54)
+          (name "P" (effects (font (size 1.27 1.27))))
+          (number "P" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+
+  (text "To LED(s)" (at 210.82 90.17 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5f3593d2-8d49-4f35-bf84-39a30a21230a)
+  )
+  (text "Battery power Input" (at 212.09 64.77 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f6b2cbb8-98ad-4e16-b2ed-8e68ed879d53)
+  )
+
+  (symbol (lib_id "Eldalote_symbols:XT60") (at 199.39 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 75a95661-d2ce-457d-a974-92e4094de088)
+    (property "Reference" "J?" (id 0) (at 203.2 62.2299 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "XT60" (id 1) (at 203.2 64.7699 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Eldalote-footprints:XT60" (id 2) (at 200.025 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 199.39 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "N" (uuid 619fdb4e-2806-41b3-9ff3-8c7805e6fa70))
+    (pin "P" (uuid f6f97e7f-8694-4773-8668-7194720186f9))
+  )
+
+  (symbol (lib_id "Eldalote_symbols:XT30") (at 199.39 90.17 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid f63b810b-bbd9-40be-a209-a549c86b8a7d)
+    (property "Reference" "J?" (id 0) (at 203.2 88.8999 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "XT30" (id 1) (at 203.2 91.4399 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Eldalote-footprints:XT30" (id 2) (at 198.12 98.425 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 199.39 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 236a645a-6cc3-4366-ae4d-f7d964d10500))
+    (pin "2" (uuid 66e8a302-8c97-4601-bec7-30c78f5ae804))
+  )
+
+  (sheet (at 166.37 83.82) (size 20.32 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid afa40094-dce0-4d65-ba7d-29141f91149b)
+    (property "Sheet name" "LED Driver" (id 0) (at 166.37 83.1084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "LEDDriver.kicad_sch" (id 1) (at 166.37 99.6446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/afa40094-dce0-4d65-ba7d-29141f91149b" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/afa40094-dce0-4d65-ba7d-29141f91149b/9c09d434-3929-43d1-95a9-49a75d0cc0c4"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/afa40094-dce0-4d65-ba7d-29141f91149b/d180e4bc-24b0-4dce-b796-9a7e4df39408"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/afa40094-dce0-4d65-ba7d-29141f91149b/a2ab449d-da59-4ac8-9d56-f63f937045d2"
+      (reference "C1") (unit 1) (value "C_Small") (footprint "")
+    )
+    (path "/afa40094-dce0-4d65-ba7d-29141f91149b/80a07ac0-d053-4e24-a043-a8c5a7f1e110"
+      (reference "C2") (unit 1) (value "C_Small") (footprint "")
+    )
+    (path "/afa40094-dce0-4d65-ba7d-29141f91149b/ff6a4aea-3960-4c4e-aac5-df82281e64fe"
+      (reference "C3") (unit 1) (value "C_Small") (footprint "")
+    )
+    (path "/afa40094-dce0-4d65-ba7d-29141f91149b/b885df03-4606-4684-ac4a-e82bd5ead17f"
+      (reference "C4") (unit 1) (value "C_Small") (footprint "")
+    )
+    (path "/75a95661-d2ce-457d-a974-92e4094de088"
+      (reference "J?") (unit 1) (value "XT60") (footprint "Eldalote-footprints:XT60")
+    )
+    (path "/f63b810b-bbd9-40be-a209-a549c86b8a7d"
+      (reference "J?") (unit 1) (value "XT30") (footprint "Eldalote-footprints:XT30")
+    )
+    (path "/afa40094-dce0-4d65-ba7d-29141f91149b/bc5b940c-7c72-4cf4-a2cb-e0c8e381ef53"
+      (reference "L1") (unit 1) (value "SRP1265C-6R8M") (footprint "")
+    )
+    (path "/afa40094-dce0-4d65-ba7d-29141f91149b/321f6d92-2780-4ab1-9533-452f4c57ad3d"
+      (reference "Q?") (unit 1) (value "Q_PMOS_GSD") (footprint "")
+    )
+    (path "/afa40094-dce0-4d65-ba7d-29141f91149b/87dfef18-f73e-403b-ab5b-fd6704068249"
+      (reference "Q?") (unit 1) (value "Q_NMOS_DGS") (footprint "")
+    )
+    (path "/afa40094-dce0-4d65-ba7d-29141f91149b/9bd0c8a1-2134-48af-85e0-ca0786ed90f4"
+      (reference "R1") (unit 1) (value "R") (footprint "")
+    )
+    (path "/afa40094-dce0-4d65-ba7d-29141f91149b/e5e5c2d2-3aa8-4acc-aa65-2ffcf38a8bcd"
+      (reference "R2") (unit 1) (value "R") (footprint "")
+    )
+    (path "/afa40094-dce0-4d65-ba7d-29141f91149b/15bd570e-c8ef-40d5-baae-bfb4d647626d"
+      (reference "R3") (unit 1) (value "73R") (footprint "")
+    )
+    (path "/afa40094-dce0-4d65-ba7d-29141f91149b/c055b674-bd0f-4899-b6c8-c9c5d0775b9a"
+      (reference "R4") (unit 1) (value "R") (footprint "")
+    )
+    (path "/afa40094-dce0-4d65-ba7d-29141f91149b/3df50591-9ea5-4461-8208-6d9295db7155"
+      (reference "R5") (unit 1) (value "R") (footprint "")
+    )
+    (path "/afa40094-dce0-4d65-ba7d-29141f91149b/370d5f97-2fcb-48d4-ada1-f6fe3849c77f"
+      (reference "R7") (unit 1) (value "R") (footprint "")
+    )
+    (path "/afa40094-dce0-4d65-ba7d-29141f91149b/4fe2cc10-1090-425b-84c2-921f0d1ee6b3"
+      (reference "R8") (unit 1) (value "100k") (footprint "")
+    )
+    (path "/afa40094-dce0-4d65-ba7d-29141f91149b/932a476d-91a0-4647-b044-8a04f1c4e9fd"
+      (reference "R9") (unit 1) (value "100k") (footprint "")
+    )
+    (path "/afa40094-dce0-4d65-ba7d-29141f91149b/6b178c18-ae85-4f76-99fc-718456f15d1f"
+      (reference "R10") (unit 1) (value "R") (footprint "")
+    )
+    (path "/afa40094-dce0-4d65-ba7d-29141f91149b/8d5de093-3b0b-4b63-b6b1-14a73e081540"
+      (reference "R11") (unit 1) (value "R") (footprint "")
+    )
+    (path "/afa40094-dce0-4d65-ba7d-29141f91149b/1b896ad4-bcfe-4495-8de2-0f18a458abf5"
+      (reference "U?") (unit 1) (value "MAX16833A") (footprint "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm_ThermalVias")
+    )
+  )
+)
