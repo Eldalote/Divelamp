@@ -1,0 +1,172 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 7f1e75fb-7825-4a79-b4a0-953d787c5953)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "USB-C\n" (at 52.07 57.15 0)
+    (effects (font (size 3 3)) (justify left bottom))
+    (uuid 2b8147f4-91ea-4c9a-9cfb-7a521d314e0f)
+  )
+  (text "BQ25713" (at 111.76 57.15 0)
+    (effects (font (size 3 3)) (justify left bottom))
+    (uuid 53a68a4e-59ab-4ff1-a73f-c08b3ebae6ac)
+  )
+  (text "STM32G071C8T6" (at 191.77 54.61 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 84e5310f-f4a7-43cd-8d65-067e4000fa72)
+  )
+
+  (sheet (at 77.47 83.82) (size 24.13 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 200fe3a7-2308-4f98-9cee-05cf8e6cdc2a)
+    (property "Sheet name" "P3-Charger" (id 0) (at 77.47 83.1084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "P3Charger.kicad_sch" (id 1) (at 77.47 109.8046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 43.18 83.82) (size 22.86 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6c690547-abab-47ef-b662-94a9d80aa131)
+    (property "Sheet name" "P2-Connectors" (id 0) (at 43.18 83.1084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "P2Connectos.kicad_sch" (id 1) (at 43.18 109.8046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 140.97 83.82) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 1))
+    (fill (color 0 194 0 1.0000))
+    (uuid 8e464837-b23b-4896-8747-654f99daf389)
+    (property "Sheet name" "P5-Balancing-Sensing" (id 0) (at 140.97 83.1084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "P5BalancingSensing.kicad_sch" (id 1) (at 140.97 109.8046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 109.22 83.82) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid c3e6b6ed-d78a-4077-8eb7-77fbc6de9c40)
+    (property "Sheet name" "P4-STM32" (id 0) (at 109.22 83.1084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "P4STM32.kicad_sch" (id 1) (at 109.22 109.8046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131" (page "2"))
+    (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a" (page "3"))
+    (path "/c3e6b6ed-d78a-4077-8eb7-77fbc6de9c40" (page "4"))
+    (path "/8e464837-b23b-4896-8747-654f99daf389" (page "5"))
+  )
+
+  (symbol_instances
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/23052c76-0aa2-4646-860e-b8b543cdb56f"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/526d5c10-e21c-4949-8ca4-1eb6a44a1490"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/745df3b4-6177-4e8e-b47a-7e9e430f1cb2"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/93f1ebb5-651a-43b9-9b65-9973c84803a4"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/cf169e5e-9d18-4c7d-bb7e-21d441b0bdb5"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/3f49f7de-a04e-4db0-9764-1fbbb967849b"
+      (reference "D?") (unit 1) (value "D_TVS") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/664727b9-d865-4690-81e6-63c574b97cd6"
+      (reference "D?") (unit 1) (value "D_TVS") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/a9234d14-b86f-4802-a747-6be6b1a09621"
+      (reference "D?") (unit 1) (value "D_TVS") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/aa82ec6e-ea64-4c52-a001-67b0f66822c0"
+      (reference "D?") (unit 1) (value "D_TVS") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/aeb90670-223b-4a9d-9107-02221ea10a52"
+      (reference "D?") (unit 1) (value "D_TVS") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/c11dc6e7-d9f4-42a1-8a0e-3b7c9d189252"
+      (reference "D?") (unit 1) (value "D_TVS") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/e777a8da-01bd-4ca9-aecb-42641a8df2c9"
+      (reference "D?") (unit 1) (value "D_TVS") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/d0788e8f-a0ed-48c4-84c6-28982091318f"
+      (reference "F?") (unit 1) (value "Fuse 32V 5A") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/64b7bbb3-b4c4-40a0-bbf4-ab226c454f8e"
+      (reference "J?") (unit 1) (value "Conn_01x05") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/b461d84b-05fc-43a8-8632-6b3c4f000e70"
+      (reference "J?") (unit 1) (value "USB-C_Power_Only") (footprint "Imported:USB-C-GCT-USB4140-GF-0170")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/e370d3c9-696c-4c89-8566-5ffb59677e19"
+      (reference "J?") (unit 1) (value "XT60") (footprint "Eldalote-footprints:XT60")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/19d10d62-9883-412b-a991-b25c4dae4171"
+      (reference "R?") (unit 1) (value "0R") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/30094d67-a6e7-4b34-a59b-5e69536e5c83"
+      (reference "R?") (unit 1) (value "5k1 (DNP)") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/3e61fa2d-ca7a-4657-8b1e-bf8b8388d88d"
+      (reference "R?") (unit 1) (value "5k1 (DNP)") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/b5dccab8-25c4-4139-a3ab-9c04cecc3f68"
+      (reference "R?") (unit 1) (value "0R") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/2622fe05-3fff-41e4-a7bf-12e18e5e05cd"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/7ec7ddb0-f94e-4062-b12b-75e32943fbf0"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/800f36fe-7276-4466-b19a-3bac3daf9b74"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/805410b2-c8ad-46de-b53d-009862673cdf"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/969907b4-83d0-4e69-bfe6-946cfc1c5123"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/a8aa0700-02cb-4362-a1dd-0e15e19cb1ae"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/b772fc6e-efe5-4579-a78c-863b8cac16f3"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/dc6f847f-b68f-4dbe-8435-7d84cd4ca45c"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/ed2238ec-15b7-443c-aeb5-52f8995a4348"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/f2e359f6-3963-45a8-b258-cabf8dd9ebf7"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
+    )
+  )
+)
