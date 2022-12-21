@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (rev "0.1")
+    (company "Eldalote Electronics")
+  )
+
   (lib_symbols
     (symbol "BQ25713_1" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 6.35 26.67 0)
@@ -2280,7 +2285,7 @@
     (uuid ffa46ba9-5790-4625-bfc0-6c4da60956dc)
   )
 
-  (text "To LED driver connector (Page 2)\nand 3v3 regulator (Page 6)\n"
+  (text "To LED driver connector (Page 2)\nand 3v3 regulator (Page 4)\n"
     (at 245.11 146.05 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 00032b99-e944-4739-94a8-0251acd293c3)
@@ -2306,7 +2311,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4d97d144-d005-4ed7-b3b1-396bf9ff85c8)
   )
-  (text "Place further at least 2x 22uF elec caps at load\nfor Vsys (present at LED driver board, connectors and regulator)"
+  (text "Place further at least 2x 22uF elec caps at load\nfor Vsys (present at LED driver board and regulator)"
     (at 215.9 38.1 0)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 6acd0054-a29a-46f9-be47-1dd9c3241c7a)
@@ -2319,12 +2324,12 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7817b9b7-b52b-4ea2-8700-5a62734cb697)
   )
-  (text "To STM32 (Page 4)\n\n" (at 246.38 114.3 0)
+  (text "To ESP32 Connector (Page 2)\n\n" (at 246.38 114.3 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 79e7d9f8-5bc9-48b6-a924-dd06ffc31893)
   )
   (text "Place compensation network\nclose to sense resistor\nper datasheet\n"
-    (at 233.68 74.93 0)
+    (at 250.19 72.39 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 920eee66-01d6-4758-9bf9-27cbe20bf942)
   )

@@ -330,16 +330,8 @@
       "P3-Charger"
     ],
     [
-      "c3e6b6ed-d78a-4077-8eb7-77fbc6de9c40",
-      "P4-STM32"
-    ],
-    [
-      "8e464837-b23b-4896-8747-654f99daf389",
-      "P5-Balancing-Sensing"
-    ],
-    [
       "69d47876-246e-41ae-905e-9ebbd16344cc",
-      "P6 - 3V3 Regulator"
+      "P4 - 3V3 Regulator"
     ]
   ],
   "text_variables": {}
