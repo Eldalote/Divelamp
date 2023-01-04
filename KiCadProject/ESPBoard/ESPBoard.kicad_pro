@@ -333,7 +333,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BatteryManagementBoard.kicad_pro",
+    "filename": "ESPBoard.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -412,24 +412,24 @@
   },
   "sheets": [
     [
-      "7f1e75fb-7825-4a79-b4a0-953d787c5953",
+      "229fd8e9-e663-4a33-843d-0e36814edd11",
       ""
     ],
     [
-      "6c690547-abab-47ef-b662-94a9d80aa131",
-      "P2-Connectors"
+      "ff81d429-0a7f-444a-8a00-c88968f46e7f",
+      "P2 Connectors"
     ],
     [
-      "200fe3a7-2308-4f98-9cee-05cf8e6cdc2a",
-      "P3-Charger"
+      "2c39e5d6-9fad-413d-91e0-e90373b7dbc7",
+      "P3 ESP32"
     ],
     [
-      "17028c60-ec89-4f82-89b5-a95e563b4bb5",
-      "P5-TUSB422 (Optional)"
+      "12e21096-3437-4ff0-8bee-78f6f1213126",
+      "P4 Batsense-Balancing"
     ],
     [
-      "69d47876-246e-41ae-905e-9ebbd16344cc",
-      "P4 - 3V3 Regulator"
+      "d827a790-8087-472b-940c-0179956a2532",
+      "P5 LEDs"
     ]
   ],
   "text_variables": {}

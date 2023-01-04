@@ -1,0 +1,108 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 229fd8e9-e663-4a33-843d-0e36814edd11)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 116.84 44.45) (size 19.05 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 12e21096-3437-4ff0-8bee-78f6f1213126)
+    (property "Sheet name" "P4 Batsense-Balancing" (id 0) (at 116.84 43.7384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "P4SenseBalancing.kicad_sch" (id 1) (at 116.84 70.4346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 86.36 43.18) (size 19.05 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2c39e5d6-9fad-413d-91e0-e90373b7dbc7)
+    (property "Sheet name" "P3 ESP32" (id 0) (at 86.36 42.4684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "P3ESP32.kicad_sch" (id 1) (at 86.36 69.1646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 151.13 43.18) (size 20.32 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid d827a790-8087-472b-940c-0179956a2532)
+    (property "Sheet name" "P5 LEDs" (id 0) (at 151.13 42.4684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "P5LEDs.kicad_sch" (id 1) (at 151.13 70.4346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 52.07 43.18) (size 21.59 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid ff81d429-0a7f-444a-8a00-c88968f46e7f)
+    (property "Sheet name" "P2 Connectors" (id 0) (at 52.07 42.4684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "P2Connectos.kicad_sch" (id 1) (at 52.07 69.1646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/ff81d429-0a7f-444a-8a00-c88968f46e7f" (page "2"))
+    (path "/2c39e5d6-9fad-413d-91e0-e90373b7dbc7" (page "3"))
+    (path "/12e21096-3437-4ff0-8bee-78f6f1213126" (page "4"))
+    (path "/d827a790-8087-472b-940c-0179956a2532" (page "5"))
+  )
+
+  (symbol_instances
+    (path "/2c39e5d6-9fad-413d-91e0-e90373b7dbc7/1da7ac78-7b0f-42cf-b158-edc8bc521483"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2c39e5d6-9fad-413d-91e0-e90373b7dbc7/34a97096-5344-4b5b-93fb-a1dc3abef813"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2c39e5d6-9fad-413d-91e0-e90373b7dbc7/46e868fc-cd98-4494-aa31-c7a0d9590d99"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/2c39e5d6-9fad-413d-91e0-e90373b7dbc7/60042026-74e9-4155-b4d8-17d2a189e52b"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/2c39e5d6-9fad-413d-91e0-e90373b7dbc7/b0de84c5-430e-4220-aa54-c787478d2d0b"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2c39e5d6-9fad-413d-91e0-e90373b7dbc7/7f613592-5729-49f0-8f85-15d0af5005ef"
+      (reference "C?") (unit 1) (value "1u") (footprint "")
+    )
+    (path "/2c39e5d6-9fad-413d-91e0-e90373b7dbc7/86518d18-a2d1-483f-97f0-60ed171b109e"
+      (reference "C?") (unit 1) (value "100n") (footprint "")
+    )
+    (path "/2c39e5d6-9fad-413d-91e0-e90373b7dbc7/99d77e1c-d069-4813-9025-aabb366ce6de"
+      (reference "C?") (unit 1) (value "10u") (footprint "")
+    )
+    (path "/2c39e5d6-9fad-413d-91e0-e90373b7dbc7/9c04649b-7e81-4aa8-83fc-f7c0c3c12a48"
+      (reference "R?") (unit 1) (value "10k") (footprint "")
+    )
+    (path "/2c39e5d6-9fad-413d-91e0-e90373b7dbc7/08da2b70-ead9-4702-b88b-e626b1df7b05"
+      (reference "SW?") (unit 1) (value "SW_DIP_x03") (footprint "")
+    )
+    (path "/2c39e5d6-9fad-413d-91e0-e90373b7dbc7/59191fcb-0ab7-4ef3-90bd-c09682d7e1ed"
+      (reference "SW?") (unit 1) (value "SW_Push") (footprint "")
+    )
+    (path "/2c39e5d6-9fad-413d-91e0-e90373b7dbc7/7607852e-941e-42bd-9312-3891eee37261"
+      (reference "SW?") (unit 1) (value "SW_Push") (footprint "")
+    )
+    (path "/2c39e5d6-9fad-413d-91e0-e90373b7dbc7/9bb91b74-6dd7-49a7-87e8-93c3a6e411e4"
+      (reference "U301") (unit 1) (value "ESP32-S3-WROOM-1") (footprint "Imported:XCVR_ESP32-S3-WROOM-1")
+    )
+  )
+)
