@@ -372,6 +372,9 @@
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/84d07488-390d-4032-9388-c6e5d6d79e4f"
       (reference "D213") (unit 1) (value "D_TVS") (footprint "")
     )
+    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/11b86462-036b-40da-863d-10d78cb083a2"
+      (reference "D?") (unit 1) (value "GREEN LED") (footprint "")
+    )
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/d0788e8f-a0ed-48c4-84c6-28982091318f"
       (reference "F201") (unit 1) (value "Fuse 32V 5A") (footprint "")
     )
@@ -473,6 +476,9 @@
     )
     (path "/17028c60-ec89-4f82-89b5-a95e563b4bb5/ab253aad-1f3d-47df-b4dc-422948a203ae"
       (reference "R401") (unit 1) (value "200k") (footprint "")
+    )
+    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/b074afe0-1781-4616-a183-d2d8acfcbca2"
+      (reference "R?") (unit 1) (value "649R") (footprint "")
     )
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/2622fe05-3fff-41e4-a7bf-12e18e5e05cd"
       (reference "TP201") (unit 1) (value "TestPoint") (footprint "")
