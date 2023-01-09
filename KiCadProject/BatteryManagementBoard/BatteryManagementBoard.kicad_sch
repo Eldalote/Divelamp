@@ -387,19 +387,19 @@
       (reference "L301") (unit 1) (value "2u2") (footprint "Eldalote-footprints:SRP-1265C")
     )
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/0f9eacb6-862e-4eef-858a-e41c67b2ffff"
-      (reference "Q301") (unit 1) (value "NFET_Gatenames") (footprint "Eldalote-footprints:SSM6K504")
+      (reference "Q301") (unit 1) (value "NFET_Gatenames") (footprint "Eldalote-footprints:DFN3x3A_8L_EP1_P")
     )
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/ba2685bf-05e8-438e-ab76-665bfc142026"
-      (reference "Q302") (unit 1) (value "NFET_Gatenames") (footprint "Eldalote-footprints:SSM6K504")
+      (reference "Q302") (unit 1) (value "NFET_Gatenames") (footprint "Eldalote-footprints:DFN3x3A_8L_EP1_P")
     )
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/9cf56586-94bd-44eb-8d85-7a02059cc1ac"
-      (reference "Q303") (unit 1) (value "NFET_Gatenames") (footprint "Eldalote-footprints:SSM6K504")
+      (reference "Q303") (unit 1) (value "NFET_Gatenames") (footprint "Eldalote-footprints:DFN3x3A_8L_EP1_P")
     )
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/e6f6eb9b-48ec-4c0b-a236-411fb605396d"
-      (reference "Q304") (unit 1) (value "NFET_Gatenames") (footprint "Eldalote-footprints:SSM6K504")
+      (reference "Q304") (unit 1) (value "NFET_Gatenames") (footprint "Eldalote-footprints:DFN3x3A_8L_EP1_P")
     )
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/d69334a1-3c7b-4d74-a9eb-1b632d82e545"
-      (reference "Q305") (unit 1) (value "PMOS_Gatenames") (footprint "")
+      (reference "Q305") (unit 1) (value "PMOS_Gatenames") (footprint "Eldalote-footprints:DFN3x3A_8L_EP1_P")
     )
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/3e61fa2d-ca7a-4657-8b1e-bf8b8388d88d"
       (reference "R201") (unit 1) (value "5k1") (footprint "Resistor_SMD:R_0402_1005Metric")
