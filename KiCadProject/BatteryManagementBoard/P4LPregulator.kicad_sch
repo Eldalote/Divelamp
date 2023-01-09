@@ -576,7 +576,7 @@
     (property "Value" "GREEN LED" (id 1) (at 167.64 109.5374 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 163.83 106.68 0)
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (id 2) (at 163.83 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 163.83 106.68 0)

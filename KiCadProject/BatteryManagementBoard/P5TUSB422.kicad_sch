@@ -467,6 +467,10 @@
     (uuid fd9dfeb1-207e-4d78-b4ea-12f86998347c)
   )
 
+  (text "I2C address: 0x20" (at 138.43 127 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8d9d5ea4-a4bc-46f2-bc30-0208b930b9eb)
+  )
   (text "All components on this page are optional, DNP initially\n"
     (at 82.55 50.8 0)
     (effects (font (size 3 3)) (justify left bottom))
@@ -597,7 +601,7 @@
     (property "Value" "TUSB422" (id 1) (at 148.0694 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 146.05 91.44 0)
+    (property "Footprint" "Package_BGA:Texas_DSBGA-9_1.4715x1.4715mm_Layout3x3_P0.5mm" (id 2) (at 146.05 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 146.05 91.44 0)

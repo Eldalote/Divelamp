@@ -348,16 +348,16 @@
       (reference "C504") (unit 1) (value "220p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/73ae4c1d-6460-4b0e-8b1b-6fb7adf4109e"
-      (reference "D201") (unit 1) (value "20v tvs") (footprint "")
+      (reference "D201") (unit 1) (value "20v tvs") (footprint "Diode_SMD:D_SMA")
     )
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/a108215c-01e5-407d-94bc-d1c5781d3be8"
-      (reference "D202") (unit 1) (value "TVS_Dual_USB") (footprint "")
+      (reference "D202") (unit 1) (value "TVS_Dual_USB") (footprint "Imported:IC_ESD122DMXR")
     )
     (path "/69d47876-246e-41ae-905e-9ebbd16344cc/11b86462-036b-40da-863d-10d78cb083a2"
-      (reference "D401") (unit 1) (value "GREEN LED") (footprint "")
+      (reference "D401") (unit 1) (value "GREEN LED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/d0788e8f-a0ed-48c4-84c6-28982091318f"
-      (reference "F201") (unit 1) (value "Fuse 32V 5A") (footprint "")
+      (reference "F201") (unit 1) (value "Fuse 32V 5A") (footprint "Fuse:Fuse_0603_1608Metric")
     )
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/59b9caf9-39e4-4b64-b49b-54ca427b8f75"
       (reference "J201") (unit 1) (value "USB-C-2.0") (footprint "Imported:GCT_USB4120-03-C_REVA")
@@ -384,19 +384,19 @@
       (reference "J208") (unit 1) (value "JST_B5B_XH") (footprint "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical")
     )
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/57f72662-6608-47a4-b0b3-83575f070240"
-      (reference "L301") (unit 1) (value "2u2") (footprint "")
+      (reference "L301") (unit 1) (value "2u2") (footprint "Eldalote-footprints:SRP-1265C")
     )
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/0f9eacb6-862e-4eef-858a-e41c67b2ffff"
-      (reference "Q301") (unit 1) (value "NFET_Gatenames") (footprint "")
+      (reference "Q301") (unit 1) (value "NFET_Gatenames") (footprint "Eldalote-footprints:SSM6K504")
     )
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/ba2685bf-05e8-438e-ab76-665bfc142026"
-      (reference "Q302") (unit 1) (value "NFET_Gatenames") (footprint "")
+      (reference "Q302") (unit 1) (value "NFET_Gatenames") (footprint "Eldalote-footprints:SSM6K504")
     )
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/9cf56586-94bd-44eb-8d85-7a02059cc1ac"
-      (reference "Q303") (unit 1) (value "NFET_Gatenames") (footprint "")
+      (reference "Q303") (unit 1) (value "NFET_Gatenames") (footprint "Eldalote-footprints:SSM6K504")
     )
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/e6f6eb9b-48ec-4c0b-a236-411fb605396d"
-      (reference "Q304") (unit 1) (value "NFET_Gatenames") (footprint "")
+      (reference "Q304") (unit 1) (value "NFET_Gatenames") (footprint "Eldalote-footprints:SSM6K504")
     )
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/d69334a1-3c7b-4d74-a9eb-1b632d82e545"
       (reference "Q305") (unit 1) (value "PMOS_Gatenames") (footprint "")
@@ -468,22 +468,22 @@
       (reference "R501") (unit 1) (value "200k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/2622fe05-3fff-41e4-a7bf-12e18e5e05cd"
-      (reference "TP201") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP201") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/dc6f847f-b68f-4dbe-8435-7d84cd4ca45c"
-      (reference "TP202") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP202") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/d9e7af52-7ad6-4250-8f66-04b3b0f546f2"
-      (reference "TP203") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP203") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/c47a3a58-e7a0-46e0-8659-996b2f75cb61"
-      (reference "TP204") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP204") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/7ec7ddb0-f94e-4062-b12b-75e32943fbf0"
-      (reference "TP209") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP209") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/b772fc6e-efe5-4579-a78c-863b8cac16f3"
-      (reference "TP210") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP210") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/695e3ef7-7b45-45cc-a51b-a40178bf78b6"
       (reference "U301") (unit 1) (value "BQ25713") (footprint "Package_DFN_QFN:Texas_S-PWQFN-N32_EP2.8x2.8mm")
@@ -495,7 +495,7 @@
       (reference "U401") (unit 1) (value "BD433M5FP") (footprint "Package_TO_SOT_SMD:TO-252-3_TabPin4")
     )
     (path "/17028c60-ec89-4f82-89b5-a95e563b4bb5/54d763b8-515c-40a8-ad86-db01f1c58ef0"
-      (reference "U501") (unit 1) (value "TUSB422") (footprint "")
+      (reference "U501") (unit 1) (value "TUSB422") (footprint "Package_BGA:Texas_DSBGA-9_1.4715x1.4715mm_Layout3x3_P0.5mm")
     )
   )
 )
