@@ -273,7 +273,7 @@
       (reference "C315") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/9ce9829a-7de9-4eb4-8b86-b56e6db04420"
-      (reference "C316") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C316") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/e4b35ac5-357b-470a-bf14-f86c7ae46bc5"
       (reference "C317") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -354,7 +354,7 @@
       (reference "D202") (unit 1) (value "TVS_Dual_USB") (footprint "Imported:IC_ESD122DMXR")
     )
     (path "/69d47876-246e-41ae-905e-9ebbd16344cc/11b86462-036b-40da-863d-10d78cb083a2"
-      (reference "D401") (unit 1) (value "GREEN LED") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D401") (unit 1) (value "GREEN LED") (footprint "LED_SMD:LED_0805_2012Metric")
     )
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/d0788e8f-a0ed-48c4-84c6-28982091318f"
       (reference "F201") (unit 1) (value "Fuse 32V 5A") (footprint "Fuse:Fuse_0603_1608Metric")
@@ -426,7 +426,7 @@
       (reference "R306") (unit 1) (value "10R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/5fbd630d-6d1d-4c5c-b61d-2568ee945420"
-      (reference "R307") (unit 1) (value "10R") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R307") (unit 1) (value "1R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/149a9f68-0de9-466e-b09a-3c5f6ba9e707"
       (reference "R308") (unit 1) (value "10R") (footprint "Resistor_SMD:R_0402_1005Metric")
