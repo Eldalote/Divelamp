@@ -98,6 +98,12 @@
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/f27a5286-5b86-465d-a8ad-a40739b4973e"
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/a8f5448b-ba1f-4165-865f-5f27be7904ab"
+      (reference "#PWR0103") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/2f301b6c-a2a3-46d4-8d78-a9f12f4d1a8d"
+      (reference "#PWR0104") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/23052c76-0aa2-4646-860e-b8b543cdb56f"
       (reference "#PWR0201") (unit 1) (value "GND") (footprint "")
     )
@@ -119,9 +125,6 @@
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/93f1ebb5-651a-43b9-9b65-9973c84803a4"
       (reference "#PWR0207") (unit 1) (value "GND") (footprint "")
     )
-    (path "/6c690547-abab-47ef-b662-94a9d80aa131/6d33df55-5bea-4ada-b708-4326b998a356"
-      (reference "#PWR0208") (unit 1) (value "+3V3") (footprint "")
-    )
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/f7e8b92f-f33d-4c21-ab3b-12f6f48208bf"
       (reference "#PWR0209") (unit 1) (value "GND") (footprint "")
     )
@@ -130,9 +133,6 @@
     )
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/d6af4341-2c54-4ffb-9b3d-cebb5f70844d"
       (reference "#PWR0211") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/6c690547-abab-47ef-b662-94a9d80aa131/cb51c10f-7561-4c58-87e9-d01ef589345f"
-      (reference "#PWR0212") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/bac12376-4518-4490-9907-30e80e7e2ffe"
       (reference "#PWR0213") (unit 1) (value "GND") (footprint "")
@@ -469,21 +469,6 @@
     )
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/2622fe05-3fff-41e4-a7bf-12e18e5e05cd"
       (reference "TP201") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/6c690547-abab-47ef-b662-94a9d80aa131/dc6f847f-b68f-4dbe-8435-7d84cd4ca45c"
-      (reference "TP202") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/6c690547-abab-47ef-b662-94a9d80aa131/d9e7af52-7ad6-4250-8f66-04b3b0f546f2"
-      (reference "TP203") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/6c690547-abab-47ef-b662-94a9d80aa131/c47a3a58-e7a0-46e0-8659-996b2f75cb61"
-      (reference "TP204") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/6c690547-abab-47ef-b662-94a9d80aa131/7ec7ddb0-f94e-4062-b12b-75e32943fbf0"
-      (reference "TP209") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/6c690547-abab-47ef-b662-94a9d80aa131/b772fc6e-efe5-4579-a78c-863b8cac16f3"
-      (reference "TP210") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/695e3ef7-7b45-45cc-a51b-a40178bf78b6"
       (reference "U301") (unit 1) (value "BQ25713") (footprint "Package_DFN_QFN:Texas_S-PWQFN-N32_EP2.8x2.8mm")

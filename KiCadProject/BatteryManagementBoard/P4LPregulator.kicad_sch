@@ -559,6 +559,11 @@
     (uuid f133894a-e14c-4b82-84a3-ce3f6be5d7bf)
   )
 
+  (label "POWER_LED" (at 163.83 101.6 0)
+    (effects (font (size 0.5 0.5)) (justify left bottom))
+    (uuid b317191e-b75b-488f-aed5-b077cb5a2879)
+  )
+
   (global_label "VOUT" (shape input) (at 92.71 91.44 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a2677f02-213a-4241-a1d2-a4940a81d942)
