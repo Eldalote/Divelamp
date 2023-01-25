@@ -230,28 +230,28 @@
       (reference "J207") (unit 1) (value "JST_SM04B") (footprint "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal")
     )
     (path "/12e21096-3437-4ff0-8bee-78f6f1213126/43b31bcb-5d11-4afe-bbd1-fff74e72733f"
-      (reference "Q401") (unit 1) (value "NFET_Gatenames") (footprint "")
+      (reference "Q401") (unit 1) (value "NFET_Gatenames") (footprint "Eldalote-footprints:SC-89(GSD)")
     )
     (path "/12e21096-3437-4ff0-8bee-78f6f1213126/5582713a-794d-41eb-8f68-895cc977726f"
-      (reference "Q402") (unit 1) (value "PMOS_Gatenames") (footprint "")
+      (reference "Q402") (unit 1) (value "PMOS_Gatenames") (footprint "Eldalote-footprints:SOT-723(GSD)")
     )
     (path "/12e21096-3437-4ff0-8bee-78f6f1213126/00138eac-47fd-41b5-aec2-873a8bb9786f"
-      (reference "Q403") (unit 1) (value "NFET_Gatenames") (footprint "")
+      (reference "Q403") (unit 1) (value "NFET_Gatenames") (footprint "Eldalote-footprints:SC-89(GSD)")
     )
     (path "/12e21096-3437-4ff0-8bee-78f6f1213126/716a1850-257e-4b06-88d4-fd7c74ade13a"
-      (reference "Q404") (unit 1) (value "PMOS_Gatenames") (footprint "")
+      (reference "Q404") (unit 1) (value "PMOS_Gatenames") (footprint "Eldalote-footprints:SOT-723(GSD)")
     )
     (path "/12e21096-3437-4ff0-8bee-78f6f1213126/5cf4ee3c-5a07-4fa3-8156-dd24e8ba7f26"
-      (reference "Q405") (unit 1) (value "NFET_Gatenames") (footprint "")
+      (reference "Q405") (unit 1) (value "NFET_Gatenames") (footprint "Eldalote-footprints:SC-89(GSD)")
     )
     (path "/12e21096-3437-4ff0-8bee-78f6f1213126/5289d80c-3d09-49ed-8fba-10f94203297e"
-      (reference "Q406") (unit 1) (value "PMOS_Gatenames") (footprint "")
+      (reference "Q406") (unit 1) (value "PMOS_Gatenames") (footprint "Eldalote-footprints:SOT-723(GSD)")
     )
     (path "/12e21096-3437-4ff0-8bee-78f6f1213126/af60a3b9-1f14-4587-880f-d75521df4379"
-      (reference "Q407") (unit 1) (value "NFET_Gatenames") (footprint "")
+      (reference "Q407") (unit 1) (value "NFET_Gatenames") (footprint "Eldalote-footprints:SC-89(GSD)")
     )
     (path "/12e21096-3437-4ff0-8bee-78f6f1213126/377146e0-218d-4398-876e-c418d6415fb8"
-      (reference "Q408") (unit 1) (value "PMOS_Gatenames") (footprint "")
+      (reference "Q408") (unit 1) (value "PMOS_Gatenames") (footprint "Eldalote-footprints:SOT-723(GSD)")
     )
     (path "/2c39e5d6-9fad-413d-91e0-e90373b7dbc7/9c04649b-7e81-4aa8-83fc-f7c0c3c12a48"
       (reference "R301") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
