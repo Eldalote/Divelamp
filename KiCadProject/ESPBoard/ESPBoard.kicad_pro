@@ -60,7 +60,10 @@
           "width": 0.18
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|141375000|84580718|ff3e4652-17e2-4bcc-86ac-792f6d8dc51f|ee8abf1f-b563-45c4-8a66-ed452e5dcfa5",
+        "silk_over_copper|158625000|84580718|30073b24-28f6-4cc9-a8c5-ecc7a38fa12c|2217ef71-bddc-4d99-8fe5-5c2c104aad50"
+      ],
       "meta": {
         "version": 2
       },
@@ -135,8 +138,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.2,
-          "drill": 0.45
+          "diameter": 0.45,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false,
