@@ -5,8 +5,10 @@
   (paper "A4")
 
   (title_block
-    (rev "0.1")
+    (date "2023-02-01")
+    (rev "0.3")
     (company "Eldalote Electronics")
+    (comment 1 "Part of the Dive Lamp design")
     (comment 3 "Battery Charger PCB")
   )
 
@@ -14,59 +16,50 @@
   )
 
 
-  (text "USB-C\n" (at 52.07 57.15 0)
-    (effects (font (size 3 3)) (justify left bottom))
-    (uuid 2b8147f4-91ea-4c9a-9cfb-7a521d314e0f)
-  )
-  (text "BQ25713" (at 111.76 57.15 0)
-    (effects (font (size 3 3)) (justify left bottom))
-    (uuid 53a68a4e-59ab-4ff1-a73f-c08b3ebae6ac)
-  )
-
-  (sheet (at 182.88 82.55) (size 24.13 25.4) (fields_autoplaced)
+  (sheet (at 172.72 31.75) (size 24.13 25.4) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 17028c60-ec89-4f82-89b5-a95e563b4bb5)
-    (property "Sheet name" "P5-TUSB422 (Optional)" (id 0) (at 182.88 81.8384 0)
+    (property "Sheet name" "P5-TUSB422 (Optional)" (id 0) (at 172.72 31.0384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "P5TUSB422.kicad_sch" (id 1) (at 182.88 108.5346 0)
+    (property "Sheet file" "P5TUSB422.kicad_sch" (id 1) (at 172.72 57.7346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 115.57 82.55) (size 24.13 25.4) (fields_autoplaced)
+  (sheet (at 105.41 31.75) (size 24.13 25.4) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 200fe3a7-2308-4f98-9cee-05cf8e6cdc2a)
-    (property "Sheet name" "P3-Charger" (id 0) (at 115.57 81.8384 0)
+    (property "Sheet name" "P3-Charger" (id 0) (at 105.41 31.0384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "P3Charger.kicad_sch" (id 1) (at 115.57 108.5346 0)
+    (property "Sheet file" "P3Charger.kicad_sch" (id 1) (at 105.41 57.7346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 149.86 82.55) (size 24.13 25.4) (fields_autoplaced)
+  (sheet (at 139.7 31.75) (size 24.13 25.4) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 69d47876-246e-41ae-905e-9ebbd16344cc)
-    (property "Sheet name" "P4 - 3V3 Regulator" (id 0) (at 149.86 81.8384 0)
+    (property "Sheet name" "P4 - 3V3 Regulator" (id 0) (at 139.7 31.0384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "P4LPregulator.kicad_sch" (id 1) (at 149.86 108.5346 0)
+    (property "Sheet file" "P4LPregulator.kicad_sch" (id 1) (at 139.7 57.7346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 81.28 82.55) (size 22.86 25.4) (fields_autoplaced)
+  (sheet (at 71.12 31.75) (size 22.86 25.4) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 6c690547-abab-47ef-b662-94a9d80aa131)
-    (property "Sheet name" "P2-Connectors" (id 0) (at 81.28 81.8384 0)
+    (property "Sheet name" "P2-Connectors" (id 0) (at 71.12 31.0384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "P2Connectos.kicad_sch" (id 1) (at 81.28 108.5346 0)
+    (property "Sheet file" "P2Connectos.kicad_sch" (id 1) (at 71.12 57.7346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -89,7 +82,7 @@
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/e4fa2ee2-b92b-4d99-97e7-5c4832924c22"
       (reference "#FLG0201") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/ad9a566d-8ef8-42fe-a66e-a0bfdf813537"
+    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/67e4b76e-c0ce-4f91-8736-5666b5bf456c"
       (reference "#FLG0401") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/898bcfab-e3ec-4e1e-8ffd-5adfbde4ad0c"
@@ -112,6 +105,9 @@
     )
     (path "/17028c60-ec89-4f82-89b5-a95e563b4bb5/d4e2d7d9-9bb8-47a6-94b6-f63ae88276a3"
       (reference "#PWR0107") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/16bba7e0-3208-41c4-80e6-fd9a1efd0dd4"
+      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
     )
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/23052c76-0aa2-4646-860e-b8b543cdb56f"
       (reference "#PWR0201") (unit 1) (value "GND") (footprint "")
@@ -215,11 +211,17 @@
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/dbe73369-ec22-4faf-a30a-b57689c2b87c"
       (reference "#PWR0323") (unit 1) (value "+BATT") (footprint "")
     )
-    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/7f7e97ff-25bb-4015-b764-5a877162e4b4"
+    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/19e6f2d0-b62e-47c7-9e1b-989aa591fa5f"
       (reference "#PWR0401") (unit 1) (value "GND") (footprint "")
     )
-    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/5ae48ea4-e03f-4da6-8932-2110e697ad93"
-      (reference "#PWR0402") (unit 1) (value "+3.3V") (footprint "")
+    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/8c9e8c05-35de-41ea-be93-20dafa66bec2"
+      (reference "#PWR0402") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/d15cecea-bffc-4e80-a266-bdb5fcaee24c"
+      (reference "#PWR0403") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/1865ee0b-aad1-4e7b-9914-e470c8daf62d"
+      (reference "#PWR0404") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/17028c60-ec89-4f82-89b5-a95e563b4bb5/d59d0527-a350-4bdc-92ac-b2401663c8ec"
       (reference "#PWR0501") (unit 1) (value "GND") (footprint "")
@@ -332,14 +334,23 @@
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/56d48771-23ff-40e1-8c72-3f08022e5f31"
       (reference "C333") (unit 1) (value "100p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/6a867d97-793e-4d84-b577-f0a4efe389cd"
-      (reference "C401") (unit 1) (value "22u") (footprint "Capacitor_SMD:CP_Elec_5x5.3")
+    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/03291368-323b-4401-ab86-913360ab404d"
+      (reference "C402") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
-    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/ff5bbe6f-84ff-43fe-a9d5-43bef5f236e7"
-      (reference "C402") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/fb54119b-15f9-4082-9327-9852806cbc0a"
+      (reference "C403") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/f648d38f-770a-4049-a706-581e513218ff"
-      (reference "C403") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/e7f01b3b-a9ae-4cee-9afd-10d7d631a83e"
+      (reference "C404") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/9fa3ac84-033c-4810-b3c7-919421603f63"
+      (reference "C405") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/f6be0b8c-8a21-414e-a39b-9577634051af"
+      (reference "C406") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/f47e9320-373c-47fa-be0b-42c984d283dc"
+      (reference "C407") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/17028c60-ec89-4f82-89b5-a95e563b4bb5/e9b8df19-e953-4cb0-8176-87150364598a"
       (reference "C501") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -380,8 +391,20 @@
     (path "/6c690547-abab-47ef-b662-94a9d80aa131/d119666d-0e22-4a15-8c17-4acdc5ec47ae"
       (reference "J208") (unit 1) (value "JST_B5B_XH") (footprint "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical")
     )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/31a10c89-0eff-45d2-95aa-a159ebcef15c"
+      (reference "J209") (unit 1) (value "Optional off board USB power connection") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical")
+    )
+    (path "/6c690547-abab-47ef-b662-94a9d80aa131/a26081ac-49c8-4015-8967-eed9fea5f82e"
+      (reference "J210") (unit 1) (value "Optional off board USB CC connection") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical")
+    )
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/57f72662-6608-47a4-b0b3-83575f070240"
       (reference "L301") (unit 1) (value "2u2") (footprint "Eldalote-footprints:SRP-1265C")
+    )
+    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/23bcddcc-983a-45b2-b3a5-8e14f0665440"
+      (reference "L401") (unit 1) (value "4u7") (footprint "Inductor_SMD:L_1210_3225Metric")
+    )
+    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/289217df-e05b-4913-bd0f-fc41c2790744"
+      (reference "L402") (unit 1) (value "1u") (footprint "Inductor_SMD:L_1210_3225Metric")
     )
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/0f9eacb6-862e-4eef-858a-e41c67b2ffff"
       (reference "Q301") (unit 1) (value "NFET_Gatenames") (footprint "Eldalote-footprints:DFN3x3A_8L_EP1_P")
@@ -479,17 +502,17 @@
     (path "/17028c60-ec89-4f82-89b5-a95e563b4bb5/c7c896eb-e02b-4a34-b555-54b188c55196"
       (reference "R506") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/6c690547-abab-47ef-b662-94a9d80aa131/2622fe05-3fff-41e4-a7bf-12e18e5e05cd"
-      (reference "TP201") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/695e3ef7-7b45-45cc-a51b-a40178bf78b6"
       (reference "U301") (unit 1) (value "BQ25713") (footprint "Package_DFN_QFN:Texas_S-PWQFN-N32_EP2.8x2.8mm")
     )
     (path "/200fe3a7-2308-4f98-9cee-05cf8e6cdc2a/f6e8523a-7b1f-406b-abd5-6076f9876b34"
       (reference "U301") (unit 2) (value "BQ25713") (footprint "Package_DFN_QFN:Texas_S-PWQFN-N32_EP2.8x2.8mm")
     )
-    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/38e94db3-ee79-4c05-82ab-aca1d01efb6e"
-      (reference "U401") (unit 1) (value "BD433M5FP") (footprint "Package_TO_SOT_SMD:TO-252-3_TabPin4")
+    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/aaf654d6-9879-4986-af77-e4cb1efdc11c"
+      (reference "U401") (unit 1) (value "AP63205WU") (footprint "Package_TO_SOT_SMD:TSOT-23-6")
+    )
+    (path "/69d47876-246e-41ae-905e-9ebbd16344cc/922291ee-8081-459e-8460-abf931096788"
+      (reference "U402") (unit 1) (value "SC189") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/17028c60-ec89-4f82-89b5-a95e563b4bb5/d3620ca1-0949-4735-8de9-a05125d99fa7"
       (reference "U501") (unit 1) (value "PTN5150") (footprint "Package_DFN_QFN:Texas_X2QFN-12_1.6x1.6mm_P0.4mm")

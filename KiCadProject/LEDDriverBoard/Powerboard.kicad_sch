@@ -6,8 +6,8 @@
 
   (title_block
     (title "LED Driver Board")
-    (date "2022-12-05")
-    (rev "V0.2")
+    (date "2023-02-01")
+    (rev "V0.3")
     (comment 1 "many of the functions of the dive lamp have been split onto different PCBs")
     (comment 2 "Due to tight radius constrains, ")
     (comment 4 "Part of the Dive lamp overall design")
