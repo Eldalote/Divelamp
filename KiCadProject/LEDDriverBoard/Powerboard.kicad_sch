@@ -8,9 +8,10 @@
     (title "LED Driver Board")
     (date "2023-02-01")
     (rev "V0.3")
+    (company "Eldalote Electronics")
     (comment 1 "many of the functions of the dive lamp have been split onto different PCBs")
     (comment 2 "Due to tight radius constrains, ")
-    (comment 4 "Part of the Dive lamp overall design")
+    (comment 4 "Part of the Dive lamp design")
   )
 
   (lib_symbols
@@ -1637,7 +1638,7 @@
     (effects (font (size 4 4) (thickness 0.8) bold) (justify left bottom))
     (uuid 9ab146a4-9364-421a-8dea-acfdb0345bf5)
   )
-  (text "Component value calculations aided by application note 5571 and the provided excel sheet (CCS: Component calculation sheet)\n"
+  (text "Component value calculations aided by application note 5571 and the provided excel sheet (CCS= Component calculation sheet)\n"
     (at 45.72 34.29 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid a69bcf7f-9dbf-44b8-9b69-7102ef6fe637)

@@ -817,8 +817,8 @@
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 16d98bf2-4a1b-47f4-9802-0be70cb1ba57)
   )
-  (text "Grounding of these switchers on PCB is not ideal due to space constraints.\nDue to the low current demands, it should not be a functional problem. Might be an emf problem."
-    (at 106.68 134.62 0)
+  (text "Grounding of these switchers on PCB is not ideal due to space constraints, and late addition to design.\nDue to the low current demands, it should not be a functional problem. Might be an emf problem."
+    (at 105.41 124.46 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4879eaae-fd25-4dd8-bffa-b06bfb17bbb4)
   )

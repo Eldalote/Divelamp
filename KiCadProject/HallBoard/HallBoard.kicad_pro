@@ -391,7 +391,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "3D View & Output/HallBoard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

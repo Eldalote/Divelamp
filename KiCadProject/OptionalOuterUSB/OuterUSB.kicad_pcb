@@ -67,7 +67,7 @@
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
-      (usegerberextensions false)
+      (usegerberextensions true)
       (usegerberattributes true)
       (usegerberadvancedattributes true)
       (creategerberjobfile true)
@@ -90,12 +90,12 @@
       (plotvalue true)
       (plotinvisibletext false)
       (sketchpadsonfab false)
-      (subtractmaskfromsilk false)
+      (subtractmaskfromsilk true)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "Fab/")
     )
   )
 
@@ -273,6 +273,11 @@
           (xy 153.7 100.82)
         )
       )
+    )
+    (model "F:/Engineering/Projects/Divelamp/KiCadImports/3DModels/2130830005.stp"
+      (offset (xyz 0 -3.5 1.4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 

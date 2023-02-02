@@ -2190,7 +2190,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4f1b8eb7-9428-4c89-ad11-00ea313a7ba5)
   )
-  (text "Place further at least 2x 22uF elec caps at load\nfor VOUT (present at LED driver board and 3v3 regulator)"
+  (text "Place further 22uF elec caps at load\nfor VOUT (present at LED driver board)"
     (at 215.9 38.1 0)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 6acd0054-a29a-46f9-be47-1dd9c3241c7a)

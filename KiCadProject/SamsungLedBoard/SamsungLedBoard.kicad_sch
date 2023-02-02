@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "LED board for Samsung LEDs")
+    (date "2023-02-02")
+    (rev "0.1")
+    (company "Eldalote Electronics")
+    (comment 2 "Part of the Dive Lamp Design")
+  )
+
   (lib_symbols
     (symbol "Device:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (id 0) (at 0 2.54 0)

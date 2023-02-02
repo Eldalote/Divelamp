@@ -422,7 +422,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "3D view & Output/ESPBoard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

@@ -505,7 +505,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "3D View & output/BatteryManagementBoard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -567,7 +567,7 @@
     ],
     [
       "17028c60-ec89-4f82-89b5-a95e563b4bb5",
-      "P5-TUSB422 (Optional)"
+      "P5-PTN5150 (Optional)"
     ]
   ],
   "text_variables": {}
