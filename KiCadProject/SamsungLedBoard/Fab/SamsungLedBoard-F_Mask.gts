@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(6.0.9)*%
-%TF.CreationDate,2023-02-02T11:12:29+01:00*%
+%TF.CreationDate,2023-02-03T11:18:55+01:00*%
 %TF.ProjectId,SamsungLedBoard,53616d73-756e-4674-9c65-64426f617264,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.9)) date 2023-02-02 11:12:29*
+G04 Created by KiCad (PCBNEW (6.0.9)) date 2023-02-03 11:18:55*
 %MOMM*%
 %LPD*%
 G01*

@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(6.0.9)"
     },
-    "CreationDate": "2023-02-02T10:43:15+01:00"
+    "CreationDate": "2023-02-03T10:43:04+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -17,8 +17,8 @@
       "X": 45.0472,
       "Y": 42.5736
     },
-    "LayerNumber": 6,
-    "BoardThickness": 1.3798,
+    "LayerNumber": 4,
+    "BoardThickness": 1.6,
     "Finish": "ENIG"
   },
   "DesignRules": [
@@ -34,7 +34,6 @@
       "PadToPad": 0.1,
       "PadToTrack": 0.1,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.3,
       "TrackToRegion": 0.2,
       "RegionToRegion": 0.2
     }
@@ -51,23 +50,13 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ESPBoard-In2_Cu(signal).g3",
+      "Path": "ESPBoard-In2_Cu(GND).g3",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ESPBoard-In3_Cu(GND).g4",
-      "FileFunction": "Copper,L4,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ESPBoard-In4_Cu(GND).g5",
-      "FileFunction": "Copper,L5,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
       "Path": "ESPBoard-B_Cu(signal).gbl",
-      "FileFunction": "Copper,L6,Bot",
+      "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -129,7 +118,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.01,
+      "Thickness": 0.4932,
       "Material": "FR4",
       "Name": "F.Cu(signal)/In1.Cu(GND)",
       "Notes": "Type: dielectric layer 1 (from F.Cu(signal) to In1.Cu(GND))"
@@ -141,46 +130,22 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.55,
+      "Thickness": 0.4932,
       "Material": "FR4",
-      "Name": "In1.Cu(GND)/In2.Cu(signal)",
-      "Notes": "Type: dielectric layer 2 (from In1.Cu(GND) to In2.Cu(signal))"
+      "Name": "In1.Cu(GND)/In2.Cu(GND)",
+      "Notes": "Type: dielectric layer 2 (from In1.Cu(GND) to In2.Cu(GND))"
     },
     {
       "Type": "Copper",
       "Thickness": 0.0152,
-      "Name": "In2.Cu(signal)"
+      "Name": "In2.Cu(GND)"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.109,
+      "Thickness": 0.4932,
       "Material": "FR4",
-      "Name": "In2.Cu(signal)/In3.Cu(GND)",
-      "Notes": "Type: dielectric layer 3 (from In2.Cu(signal) to In3.Cu(GND))"
-    },
-    {
-      "Type": "Copper",
-      "Thickness": 0.0152,
-      "Name": "In3.Cu(GND)"
-    },
-    {
-      "Type": "Dielectric",
-      "Thickness": 0.55,
-      "Material": "FR4",
-      "Name": "In3.Cu(GND)/In4.Cu(GND)",
-      "Notes": "Type: dielectric layer 4 (from In3.Cu(GND) to In4.Cu(GND))"
-    },
-    {
-      "Type": "Copper",
-      "Thickness": 0.0152,
-      "Name": "In4.Cu(GND)"
-    },
-    {
-      "Type": "Dielectric",
-      "Thickness": 0.01,
-      "Material": "FR4",
-      "Name": "In4.Cu(GND)/B.Cu(signal)",
-      "Notes": "Type: dielectric layer 5 (from In4.Cu(GND) to B.Cu(signal))"
+      "Name": "In2.Cu(GND)/B.Cu(signal)",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu(GND) to B.Cu(signal))"
     },
     {
       "Type": "Copper",

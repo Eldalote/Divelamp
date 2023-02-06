@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(6.0.9)*%
-%TF.CreationDate,2023-02-02T11:01:25+01:00*%
+%TF.CreationDate,2023-02-03T11:06:12+01:00*%
 %TF.ProjectId,Powerboard,506f7765-7262-46f6-9172-642e6b696361,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.9)) date 2023-02-02 11:01:25*
+G04 Created by KiCad (PCBNEW (6.0.9)) date 2023-02-03 11:06:12*
 %MOMM*%
 %LPD*%
 G01*
