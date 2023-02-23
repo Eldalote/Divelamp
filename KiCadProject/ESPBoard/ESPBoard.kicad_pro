@@ -420,7 +420,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "3D view & Output/ESPBoard.step",
-      "vrml": ""
+      "vrml": "3D view & Output/ESPBoard.wrl"
     },
     "page_layout_descr_file": ""
   },
